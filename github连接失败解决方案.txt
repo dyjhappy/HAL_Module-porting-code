@@ -1,0 +1,7 @@
+VPN使用环境下的解决方案
+查看系统端口号:
+打开“设置 -> 网络和Internet -> 代理”，记录下当前的端口号。
+
+设置Git端口号:
+git config --global http.proxy 127.0.0.1:<你的端口号>
+git config --global https.proxy 127.0.0.1:<你的端口号>
